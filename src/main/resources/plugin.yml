@@ -1,0 +1,15 @@
+name: NeonSkywars
+version: 2.0.0
+main: me.naptie.bukkit.game.skywars.Main
+author: Naptie
+api-version: "1.15"
+depend:
+  - NeonInventory
+  - NeonBukkitCore
+  - NeonBukkitGame
+  - NeonPlayer
+commands:
+  skywars:
+    description: Shows a list of Skywars commands.
+    usage: /<command> <leave | forcestart | setwinner | reload>
+    aliases: [sw, swgame]
